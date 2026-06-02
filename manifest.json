@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ポケダン価",
+  "version": "0.1",
+  "description": "ああ、大変だ！ペルシャ語があなたの¥をすべて₽に置き換えてしまった！",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+	  "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

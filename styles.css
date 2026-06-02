@@ -1,0 +1,13 @@
+.ruble {
+  font-weight: bold;
+  background: linear-gradient(120deg, #ffff66, #cc9933, #ffff66, #996600, #ffff66, #cc9933, #ffff66);
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: goldLoop 0.5s linear infinite;
+}
+
+@keyframes goldLoop {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
